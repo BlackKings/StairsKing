@@ -1,7 +1,4 @@
-function a(){
-    var user = "greenking";
-    console.log(this.user);
-    console.log(this);
-}
-
-window.a();
+var m = new Map([[1, 'x'], [2, 'y'], [3, 'z']]);
+m.forEach(function (a, b, map) {
+    console.log(b);
+});

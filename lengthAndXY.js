@@ -1,6 +1,5 @@
 var sAdderSize = 11;
 
-//
 function adderList(tLength, tWidth) {
     var
         sLength = tLength / sAdderSize,
